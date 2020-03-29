@@ -1,11 +1,12 @@
 import React from "react";
-import HomePage from "./HomePage.Component";
-import "./App.css";
+
+import Directory from "./Component/Directory Component/directory.component";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <h1>GREWAL CLOTHINGS</h1>
+      <Directory />
     </div>
   );
 }
